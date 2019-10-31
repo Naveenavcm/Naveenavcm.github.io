@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightgrey;
+  width: 1020px;
+  border: 15px ;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+</head>
+<body><b><div>
+<center> <img src="p2.jpg" width="1000"></img>
+
+<form name="resident" action="new_res.jsp" method="post">
+      
+     <h2>RESIDENT INFORMATION</h2>
+      <img style="float: left; margin: 10px 15px 15px 0px;" src="o9.jpg" width="300"height="600" />
+      <br><br>
+            ENTER YOUR RESIDENT ID:<input type="text"name="res_id"value=""></input><br><br>
+             ENTER YOUR HOME_ID:<input type="text"name="h_id"value=""></input><br><br>
+      <!--<input type="radio"name="h_id"value="1">1</input>
+      <input type="radio"name="h_id"value="2">2</input>-->
+     <br><br>
+ENTER YOUR  FIRST NAME:<input type="text"name="firstname"value=""></input><br><br>
+      ENTER YOUR  LAST NAME:<input type="text"name="lastname"value=""></input><br><br>
+        <!--DATE OF BIRTH:<input type="date" name="dob" value=""></input><br><br> -->     
+     ENTER YOUR AADHAAR NUMBER:<input type="text" name="aadhaar_no" id="myKadA" maxlength="16" style="width:90px !important" onchange="checkMyKad()" size="10"  class="form-control block-centered ic-input" required><br><br>
+    
+     GENDER:<input type="text" name="gender"value=""></input><br><br>
+     <!--<input type="radio"name="gender"value="male">male</input>
+      <input type="radio"name="gender"value="female">female
+      <input type="radio"name="gender"value="other">other</input></input><br><br>-->
+      
+      ENTER YOUR AGE:<input type="text"name="age" value=""></input><br><br>
+         </select><br><br>
+     
+     DATE OF JOINING:<input type="text" name="dateofjoining"></input><br><br>
+     
+     HAVE ANY DISEASE:
+     <input type="radio"name="illness"value="yes">Yes</input>
+     <input type="radio"name="illness"value="no">no</input><br><br>
+          
+      IF YES ENTER THE DISEASE:<input type="text" name="disease" value=""><r><br><br>
+       
+       ENTER YOUR ADDRESS:&nbsp;<input type="textarea"name="address" value=""></input>
+       <!--<textarea rows="3"name="address" cols="25"></textarea><br><br>
+      &nbsp;&nbsp;&nbsp; --><br><br>
+
+      ENTER YOUR PHONE NUMBER:<input type="number"  name="phone" value=""><br><br>
+      <button type ="submit" id="close-image"><img src="sub.jpg" height="100"></button>
+   </div> 
+   </form>
+
+</r></center></body></html>

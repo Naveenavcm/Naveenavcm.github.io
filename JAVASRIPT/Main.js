@@ -1,0 +1,58 @@
+<script type="text/javascript">
+<!-- 
+document.writeln("  "); 
+document.writeln(" <html> "); 
+document.writeln(" 	 "); 
+document.writeln(" 	<title>Home</title> "); 
+document.writeln(" 	<head> "); 
+document.writeln(" 		<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\" /> "); 
+document.writeln(" 		<meta name=\"Description\" content=\"Facebook Style Homepage Design with Login Form registration for using html and CSS\"/> "); 
+document.writeln("  "); 
+document.writeln(" <style> "); 
+document.writeln("  "); 
+document.writeln("  "); 
+document.writeln(" </style> "); 
+document.writeln(" 	</head> "); 
+document.writeln(" 	<body> "); 
+document.writeln(" 			 "); 
+document.writeln(" 			<body style=\"background:url(skin.jpg);background-size: 100% 100%;\"> "); 
+document.writeln(" 				  <div class=\"content\"><div> "); 
+document.writeln(" 				   "); 
+document.writeln(" 		<div class=\"fb-header-base\"> "); 
+document.writeln(" 		</div> "); 
+document.writeln(" 		<div class=\"fb-header\"> "); 
+document.writeln(" 				<div class=\"fb-body\"> "); 
+document.writeln(" 			<div id=\"intro1\" class=\"fb-body\">FEEL AT HOME.. </div> "); 
+document.writeln(" 			<div id=\"intro2\" class=\"fb-body\">WE CARE YOU....</div> "); 
+document.writeln(" 			<div id=\"intro6\" class=\"fb-body\">WE NEED YOU....</div> "); 
+document.writeln("             <a href=\"lions.html\"> "); 
+document.writeln("             <div id=\"img2\" class=\"fb-body\"><img src=\"img11.jpg\" /></div></a> "); 
+document.writeln("             <a href=\"shridi.html\"> "); 
+document.writeln("             <div id=\"img3\" class=\"fb-body\"><img src=\"img22.jpg\" /></div></a> "); 
+document.writeln(" 			<div id=\"intro3\" class=\"fb-body\">It's free and always will be.</div> "); 
+document.writeln(" 			<div id=\"form3\" class=\"fb-body\"> "); 
+document.writeln(" 				<p id=\"intro4\">By clicking Create an account, you agree to our Terms and that  "); 
+document.writeln(" 				you have read our Data Policy, including our Cookie Use.</p> "); 
+document.writeln(" 				<a href=\"resident.html\"><input type=\"submit\" class=\"button2\" value=\"New Resident\" /></button></a> "); 
+document.writeln(" 				<br><hr> "); 
+document.writeln(" 				<p id=\"intro5\"></p> "); 
+document.writeln(" 				<br><br><br><br> "); 
+document.writeln(" 				<p id=\"intro4\">Giving is not just about making a donation.<br>It is about making a difference "); 
+document.writeln(" 					</p> "); 
+document.writeln(" 					<a href=\"funds.html\"><input type=\"submit\" class=\"button2\" value=\"Donate us\" /></button></a></br> "); 
+document.writeln(" 					<p id=\"intro4\" >WE NEED YOUR SERVICE</p> "); 
+document.writeln(" 					<a href=\"staff.html\"><input type=\"submit\" class=\"button2\" value=\"Service us\" /></button></a></br> "); 
+document.writeln(" 					<p id=\"intro4\" >SAVE A LIFE </p> "); 
+document.writeln(" 					<a href=\"doctor.html\"><input type=\"submit\" class=\"button2\" value=\"Save a life\" /></button></a></div><br> "); 
+document.writeln(" 			 "); 
+document.writeln(" 					<br><hr> "); 
+document.writeln("                     "); 
+document.writeln(" 			</div> "); 
+document.writeln(" 			 "); 
+document.writeln(" 		</div> "); 
+document.writeln(" 		 "); 
+document.writeln(" 	</body> "); 
+document.writeln(" 	 "); 
+document.writeln(" </html> ");
+ // -->
+</script>

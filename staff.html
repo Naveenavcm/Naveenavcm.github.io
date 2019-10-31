@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.button {
+  background-color: #A0522D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="abc.mp4" type="video/mp4">
+</video>
+<div class="content"><div>
+    <div></div>
+     <div><center><h2>STAFFS</h2></center> </div>
+<center>
+  <form action="new_staffs.jsp" method="post">
+ <h3> Name:
+  <input type="text" name="name"><br><br>
+  Adhaar number:
+<input type="text" name="adhar_no"value=""> <br>
+  <br>
+  Staff Idenity Number:
+  <input type="text" name="sid"><br>
+  <br>
+  Home Identification number:
+<br> <input type="text" name="h_id" value=""><br/>
+<br>
+  Salary: <input type="text" name="salary"></br>
+ <br>
+  Phone Number:
+ <input type="number" name="ph_no"> <span class="validity"></span></br><br>
+ Address:<input type="textarea" name="address" value=""><br>
+ <br>
+ </br><button type ="submit" class="button"value="">Submit</button></br>
+</center></h3></div>
+</form>
+
+  <form action="staffup.jsp" method ="post">
+
+<h3>ENTER THE STAFF ID IN WHICH THE UPDATE HAS TO DONE:
+  <input type="text" name="sid"><br>
+<br><br> </br><button type ="submit" class="button"value="">Submit</button></br>
+</body>
+ </html>
